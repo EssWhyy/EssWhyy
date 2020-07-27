@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-##My Name Is Sven Tang, 1st year Computer Science undergraduate at National University of Singapore.
-##I'm interested in the fields of Data Analytics, Artificial Intelligence and Web Development
+## My Name Is Sven Tang, 1st year Computer Science undergraduate at National University of Singapore.
+## I'm interested in the fields of Data Analytics, Artificial Intelligence and Web Development
 <!--
 **EssWhyy/EssWhyy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
