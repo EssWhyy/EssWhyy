@@ -6,9 +6,7 @@
 
 - 📫 Chat with me at: instagram.com/sytang99 
 - 🔭 I’m currently Working on: My own Personal Website! (https://esswhyy.github.io/)
-- 🌱 I’m currently learning: Java/C++/Reactjs 
-- 👯 I’m looking to collaborate on: NUS Orbital (https://orbital.comp.nus.edu.sg/)
-- 🤔 I’m looking for help with: Coding Interviews 
-- 💬 Ask me about: Python3/Data Analytics
+- 🌱 I’m currently learning: Node.js/React.js 
+- 💬 I'm currently open to Internships! (https://www.linkedin.com/in/swenyitang)
 - ⚡ Fun fact: I make memes at reddit.com/u/Stefan0_
 
