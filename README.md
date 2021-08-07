@@ -5,8 +5,6 @@
 **EssWhyy/EssWhyy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
 - 📫 Chat with me at: instagram.com/sytang99 
-- 🔭 I’m currently Working on: My own Personal Website! (https://esswhyy.github.io/)
-- 🌱 I’m currently learning: Node.js/React.js 
-- 💬 I'm currently open to Internships! (https://www.linkedin.com/in/swenyitang)
-- ⚡ Fun fact: I make memes at reddit.com/u/Stefan0_
-
+- 🔭 I’m currently Working on: NUS Orbital 2021 (https://esswhyy.github.io/TrainGoWhere)
+- 🌱 I’m currently learning: C, SQL, TensorFlow
+- 💬 I'm currently open to Internships! (Link to resume)
