@@ -1,6 +1,6 @@
 ## Hello! 👋
 
-#### My Name Is Swen, I'm a 2nd year Computer Science undergraduate at National University of Singapore. I'm interested in the fields of Data Analytics and Full Stack Software/Web Development 
+#### My Name Is Swen, I'm a penultimate year Computer Science undergraduate at National University of Singapore. I'm interested in the fields of Data Analytics and Full Stack Software/Web Development 
 <!--
 **EssWhyy/EssWhyy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
