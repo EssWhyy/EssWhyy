@@ -1,6 +1,6 @@
 ## Hello! 👋
 
-#### My Name Is Sven, I'm a penultimate year Computer Science undergraduate at National University of Singapore. I'm interested in Full Stack Software/Web Development and Data Analytics.
+#### My Name Is Sven, I'm a penultimate year Computer Science undergraduate at National University of Singapore. I'm interested in Software Development, particularly in web applications and data-driven applications.
 <!--
 **EssWhyy/EssWhyy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
