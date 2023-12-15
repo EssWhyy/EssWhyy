@@ -1,16 +1,14 @@
-<h1 align="center">Hi 👋, I'm Sven</h1>
+<h1 align="center">Hi 👋, I'm Swen</h1>
 <h3 align="center">FullStack Developer Interested in Web and Data Driven Applications</h3>
 <h4 align="center">Final Year CS undergrad from Singapore (Graduating in May 2024)</h4>
 
-- 🔭 I’m currently collaborating on [Markbind](https://markbind.org/) and [NUSMods](https://github.com/nusmodifications/nusmods)
+- 🌱 I’m currently learning **AWS, AI Frameworks**
 
-- 🌱 I’m currently learning **C++, Figma**
+- 👯 I’m looking to collaborate on **Open-source web dev projects**
 
-- 👯 I’m looking to collaborate on **open-source web dev projects**
+- 💬 Ask me about **Web development, front-end & back-end; Data visualisation projects**
 
-- 💬 Ask me about **web development, front-end & back-end**
-
-- 🤝 I’m looking for **internships and full-time SWE roles**
+- 🤝 I’m looking for **Full-time SWE and Data Science roles**
 
 - 📄 My Resume or CV can be found [here](https://drive.google.com/file/d/1C9OPTp9Yi_Ld3r2qeB2sci-Aj-ihS0Eh/view?usp=sharing)
 
