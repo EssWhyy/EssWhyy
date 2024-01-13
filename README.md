@@ -10,8 +10,6 @@
 
 - 🤝 I’m looking for **Full-time SWE and Data Science roles**
 
-- 📄 My Resume or CV can be found [here](https://drive.google.com/file/d/1C9OPTp9Yi_Ld3r2qeB2sci-Aj-ihS0Eh/view?usp=sharing)
-
 
 <h2 align="left">Connect with me:</h2>
 <p align="left">
