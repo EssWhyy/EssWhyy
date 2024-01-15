@@ -1,15 +1,14 @@
 <h1 align="center">Hi 👋, I'm Swen</h1>
-<h3 align="center">FullStack Developer Interested in Web and Data Driven Applications</h3>
+<h3 align="center">FullStack Developer Passionate in Web Based and Data Driven Applications</h3>
 <h4 align="center">Final Year CS undergrad from Singapore (Graduating in May 2024)</h4>
 
 - 🌱 I’m currently learning **AWS, AI Frameworks**
 
-- 👯 I’m looking to collaborate on **Open-source web dev projects**
+- 👯 I’m looking to collaborate on **Open-source Web Dev projects**
 
-- 💬 Ask me about **Web development, front-end & back-end; Data visualisation projects**
+- 💬 Ask me about **Web development, Front-end & Back-end Software Development; Data Visualisation and Data Engineering**
 
 - 🤝 I’m looking for **Full-time SWE and Data Science roles**
-
 
 <h2 align="left">Connect with me:</h2>
 <p align="left">
