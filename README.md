@@ -6,7 +6,7 @@
 
 - 👯 I’m looking to collaborate on **Open-source Web Dev projects**
 
-- 💬 Ask me about **Web development, Front-end & Back-end Software Development; Data Visualisation and Data Engineering**
+- 💬 Ask me about **Fullstack Web Development; Data Visualisation and Data Engineering**
 
 - 🤝 I’m looking for **Full-time SWE and Data Science roles**
 
