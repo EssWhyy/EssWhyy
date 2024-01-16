@@ -2,7 +2,7 @@
 <h3 align="center">FullStack Developer Passionate in Web Based and Data Driven Applications</h3>
 <h4 align="center">Final Year CS undergrad from Singapore (Graduating in May 2024)</h4>
 
-- 🌱 I’m currently learning **AWS, AI Frameworks**
+- 🌱 I’m currently learning **Docker, Kubernetes, AI Frameworks**
 
 - 👯 I’m looking to collaborate on **Open-source Web Dev projects**
 
