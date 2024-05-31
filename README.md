@@ -2,11 +2,11 @@
 <h3 align="center">FullStack Developer Passionate in Web Based and Data Driven Applications</h3>
 <h4 align="center">Fresh graduate from NUS CS 🇸🇬</h4>
 
-- 👯 I’m looking to collaborate on **Open-source Sustainability and Education projects**
+- 🤝 I’m looking to collaborate on **Open-source Sustainability and Education projects**
 
 - 💬 Ask me about **Fullstack Software Development, Web Applications, Data Visualisation**
 
-- 🤝 I’m looking for **Full-time Software Engineering Roles**
+- 👀 I’m actively looking out for **Full-time Software Engineering Roles**
 
 <h2 align="left">My Stack:</h2>
 <p align="left"> <b>Languages: &emsp; </b> 
