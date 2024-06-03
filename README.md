@@ -1,10 +1,9 @@
 <h1 align="center">Hey, I'm Swen 👋</h1>
-<h3 align="center">FullStack Developer Passionate in Web Based and Data Driven Applications</h3>
-<h4 align="center">Fresh graduate from NUS CS 🇸🇬</h4>
+<h3 align="center">FullStack Junior Developer Focusing on Web and Data Applications For Good</h3>
 
-- 🤝 I’m looking to collaborate on **Open-source Sustainability and Education projects**
+- 🤝 I’m looking to collaborate on **Open-source Sustainability & Educational Projects**
 
-- 💬 Ask me about **Fullstack Software Development, Web Applications, Data Visualisation**
+- 💬 Ask me about **Full Stack Software Development, Web Applications & Data Visualisation**
 
 - 👀 I’m actively looking out for **Full-time Software Engineering Roles**
 
