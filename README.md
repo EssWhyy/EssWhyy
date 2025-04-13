@@ -1,5 +1,5 @@
 <h1 align="center">Hey, I'm Swen 👋</h1>
-<h3 align="center">FullStack Junior Developer Focusing on Web and Data Applications For Good</h3>
+<h3 align="center">FullStack Junior Developer Focusing Developing Tech For Good Applications</h3>
 
 - 🤝 I’m looking to collaborate on **Open-source Sustainability & Educational Projects**
 
