@@ -1,63 +1,56 @@
 <h1 align="center">Hey, I'm Swen 👋</h1>
-<h3 align="center">FullStack Junior Developer Focusing Developing Tech For Good Applications</h3>
+<h3 align="center">FullStack Junior Developer from Singapore, focusing on building Tech For Good Solutions</h3>
 
-- 🤝 I’m looking to collaborate on **Open-source Sustainability & Educational Projects**
+- 🤝 Looking to collaborate on **Open-source Sustainability & Educational Projects**
 
 - 💬 Ask me about **Full Stack Software Development, Web Applications & Data Visualisation**
 
-- 👀 I’m actively looking out for **Full-time Software Engineering Roles**
+- 👀 I’m actively looking out for **Full-time Software Engineering Roles, open to remote work & relocation**
 
-<h2 align="left">My Stack:</h2>
-<p align="left"> <b>Languages: &emsp; </b> 
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="20" height="20"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="20" height="20"/> </a> 
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="20" height="20"/> </a> 
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="20" height="20"/> </a> 
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="20" height="20"/> </a> 
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="20" height="20"/> </a> </p>
+## My Stack:
 
-  <p align="left"> <b>Web Development: &emsp; </b>
-    <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="20" height="20"/> </a> 
-    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="20" height="20"/> </a> 
-    <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="20" height="20"/> </a> 
-    <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="20" height="20"/> </a> 
-    <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="20" height="20"/> </a> 
-    <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="20" height="20"/> </a>
-    <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="20" height="20"/> </a> 
-    <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="20" height="20"/> </a>
-  </p>
+#### FrontEnd 
+![](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white)
+![](https://img.shields.io/badge/Angular-ef2d1f?style=for-the-badge&logo=angular&logoColor=white)
+![](https://img.shields.io/badge/React-00e8ff?style=for-the-badge&logo=react&logoColor=white)
+![](https://img.shields.io/badge/Ngrx-bc08a8?style=for-the-badge&logo=ngrx&logoColor=white)
+![](https://img.shields.io/badge/html5-f77d0a?style=for-the-badge&logo=html5&logoColor=white)
+![](https://img.shields.io/badge/Sass-fe0088?style=for-the-badge&logo=sass&logoColor=white)
+![](https://img.shields.io/badge/Figma-ff5f00?style=for-the-badge&logo=figma&logoColor=white)
 
-  <p align="left">  <b>Data Engineering: &emsp; </b>
-    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="20" height="20"/> </a> 
-    <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="20" height="20"/> </a> 
-    <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="20" height="20"/> </a> 
-    <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="20" height="20"/> </a> 
-    <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="20" height="20"/> </a> 
-     <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="20" height="20"/> </a>
-  </p>
+#### Backend
+![](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express&logoColor=white)
+![](https://img.shields.io/badge/Node.js-1d8f02?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![](https://img.shields.io/badge/C%23%20.NET-7a16f2?style=for-the-badge&logo=dotnet&logoColor=white)
+![](https://img.shields.io/badge/Kafka-black?style=for-the-badge&logo=apachekafka&logoColor=white)
+![](https://img.shields.io/badge/Flask-51c1fa?style=for-the-badge&logo=flask&logoColor=white)
+![](https://img.shields.io/badge/java-b13838?style=for-the-badge&logo=abbrobotstudio&logoColor=white)
 
-  
-  <p align="left"> <b>DevOps and BaaS: &emsp; </b>
-    <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="20" height="20"/> </a> 
-    <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="20" height="20"/> </a> 
-    <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="20" height="20"/> </a> 
-  </p>
+#### Data
+![](https://img.shields.io/badge/Python-067ab8?style=for-the-badge&logo=python&logoColor=white)
+![](https://img.shields.io/badge/SQL-067ab8?style=for-the-badge&logo=postgresql&logoColor=white)
+![](https://img.shields.io/badge/pandas-black?style=for-the-badge&logo=pandas&logoColor=white)
+![](https://img.shields.io/badge/scikit-ff9412?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![](https://img.shields.io/badge/tableau-538ce8?style=for-the-badge&logo=tableau&logoColor=white)
+
+#### DevOps
+![](https://img.shields.io/badge/docker-2aa7df?style=for-the-badge&logo=docker&logoColor=white)
+![](https://img.shields.io/badge/terraform-7a11a4?style=for-the-badge&logo=terraform&logoColor=white)
+![](https://img.shields.io/badge/Git-e8611c?style=for-the-badge&logo=git&logoColor=white)
+![](https://img.shields.io/badge/Github%20actions-4570fe?style=for-the-badge&logo=githubactions&logoColor=white)
+![](https://img.shields.io/badge/Jasmine-8c02d3?style=for-the-badge&logo=jasmine&logoColor=white)
+
+#### Cloud & SaaS
+![](https://img.shields.io/badge/azure-128af7?style=for-the-badge&logo=heroku&logoColor=white)
+![](https://img.shields.io/badge/AWS-f79f12?style=for-the-badge&logo=heroku&logoColor=white)
+![](https://img.shields.io/badge/heroku-7e1ac4?style=for-the-badge&logo=heroku&logoColor=white)
 
 
-  <p align="left"> <b>Other Tools: &emsp; </b>
-    <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="20" height="20"/> </a> 
-    <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="20" height="20"/> </a> 
-    <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="20" height="20"/> </a> 
-    <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="20" height="20"/> </a> 
-    <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="20" height="20"/> </a> 
-  </p>
-
-    
-
-<h2 align="left">Connect with me:</h2>
+## Connect with me:
 <p align="left">
-
 <a href="https://linkedin.com/in/sventang" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sventang" height="40" width="40" /></a>
 <a href="mailto:sventang1@gmail.com" target="blank"><img align="center" src="https://freesvg.org/img/Mail-Icon-White-on-Grey.png" alt="esswhyy" height="40" width="40" /></a>
 </p>
+
+
 
