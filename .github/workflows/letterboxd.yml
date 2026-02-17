@@ -20,7 +20,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Fetch full history so git pull works
+          fetch-depth: 0
+          persist-credentials: true  # allows git push without extra token setup
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -38,7 +39,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git pull --rebase origin master
           git add README.md
           git commit -m "Update Letterboxd Featured Movie section" || echo "No changes to commit"
-          git push
+          git push --force-with-lease
