@@ -77,10 +77,11 @@
 
 
 
-## Connect with me:
+## Connect with me: 
 <p align="left">
-<a href="https://linkedin.com/in/sventang" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sventang" height="40" width="40" /></a>
-<a href="mailto:sventang1@gmail.com" target="blank"><img align="center" src="https://freesvg.org/img/Mail-Icon-White-on-Grey.png" alt="esswhyy" height="40" width="40" /></a>
+<a href="https://linkedin.com/in/sventang" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sventang" height="60" width="60" /></a>
+<a href="https://www.inaturalist.org/people/esswhyy" target="blank"><img align="center" src="https://static.inaturalist.org/sites/1-logo_square.png?1573071870" alt="esswhyy" height="60" width="60" /></a>
+<a href="mailto:sventang1@gmail.com" target="blank"><img align="center" src="https://freesvg.org/img/Mail-Icon-White-on-Grey.png" alt="esswhyy" height="60" width="60" /></a>
 </p>
 
 
