@@ -17,28 +17,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repo with full history and push access
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: true  # allows git push without extra token setup
+          persist-credentials: true  # Required for git push
 
+      # 2️⃣ Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
-        run: |
-          pip install feedparser beautifulsoup4
+        run: pip install feedparser beautifulsoup4
 
-      - name: Run script
+      # 4️⃣ Run your Python script to update README
+      - name: Run Letterboxd script
         run: python scripts/letterboxd_readme_widget.py
 
-      - name: Commit changes
+      # 5️⃣ Commit and push changes safely
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add README.md
-          git commit -m "Update Letterboxd Featured Movie section" || echo "No changes to commit"
-          git push --force-with-lease
+          git diff-index --quiet HEAD || git commit -m "Update Letterboxd Featured Movie section"
+          # Force push safely with lease
+          git push origin HEAD:master --force-with-lease
