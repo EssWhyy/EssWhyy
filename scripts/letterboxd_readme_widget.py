@@ -34,37 +34,33 @@ def get_latest_movies(limit=3):
 def update_readme(movies):
     readme = README_PATH.read_text(encoding="utf-8")
 
-    movie_sections = """
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-"""
+    # Build table cells
+    table_cells = ""
 
     for movie in movies:
-        movie_sections += f"""
-    <div style="text-align: center; width: 180px;">
-        <a href="{movie['link']}">
-            <img src="{movie['img']}" width="150"><br>
-            <strong>{movie['title']}</strong>
-        </a>
-    </div>
+        table_cells += f"""<td align="center">
+<a href="{movie['link']}">
+<img src="{movie['img']}" width="150"><br>
+<strong>{movie['title']}</strong>
+</a>
+</td>
 """
 
-    movie_sections += """
-</div>
-"""
-
-    new_section = f"""
-{START_MARKER}
+    # Build full table (NO indentation to avoid code blocks)
+    movie_section = f"""{START_MARKER}
 ## 🎬 Schaff's Latest Letterboxd Reviews
 
-{movie_sections}
+<table>
+<tr>
+{table_cells}</tr>
+</table>
 
-{END_MARKER}
-"""
+{END_MARKER}"""
 
     before = readme.split(START_MARKER)[0]
     after = readme.split(END_MARKER)[1]
 
-    updated_readme = before + new_section + after
+    updated_readme = before + movie_section + after
     README_PATH.write_text(updated_readme, encoding="utf-8")
 
 
