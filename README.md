@@ -48,7 +48,7 @@
 
 
 <!-- LETTERBOXD_START -->
-## 🎬 Schaff's Latest Letterboxd Reviews
+## 🎬 Schaff's Latest Letterboxd Reviews (Updated Weekly!)
 
 <table>
 <tr>
