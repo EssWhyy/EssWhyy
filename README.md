@@ -18,7 +18,7 @@
 ![](https://img.shields.io/badge/Sass-fe0088?style=for-the-badge&logo=sass&logoColor=white)
 ![](https://img.shields.io/badge/Figma-ff5f00?style=for-the-badge&logo=figma&logoColor=white)
 
-#### Backend
+#### BackEnd
 ![](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express&logoColor=white)
 ![](https://img.shields.io/badge/Node.js-1d8f02?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![](https://img.shields.io/badge/C%23%20.NET-7a16f2?style=for-the-badge&logo=dotnet&logoColor=white)
@@ -48,7 +48,7 @@
 
 
 <!-- LETTERBOXD_START -->
-## 🎬 Schaff's Latest Letterboxd Reviews (Updated Weekly!)
+## Schaff's Latest Movie Reviews (Updated Weekly!)
 
 <table>
 <tr>
@@ -77,7 +77,7 @@
 
 
 
-## Connect with me: 
+## Connect with me! <img src="https://user-images.githubusercontent.com/74038190/216649417-9acc58df-9186-4132-ad43-819a57babb67.gif" width="50">
 <p align="left">
 <a href="https://linkedin.com/in/sventang" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sventang" height="60" width="60" /></a>
 <a href="https://www.inaturalist.org/people/esswhyy" target="blank"><img align="center" src="https://static.inaturalist.org/sites/1-logo_square.png?1573071870" alt="esswhyy" height="60" width="60" /></a>
