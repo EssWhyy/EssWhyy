@@ -17,12 +17,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo with full history and push access
-      - name: Checkout repo
+      # 1️⃣ Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: true  # Required for git push
 
       # 2️⃣ Setup Python
       - name: Setup Python
@@ -34,28 +33,30 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      # 4️⃣ Run your Python script to update README
-      - name: Run Script to Update Inaturalist Showcase
+      # 4️⃣ Run your Python script
+      - name: Run Inaturalist update script
         run: python scripts/inaturalist_showcase_widget.py
 
-      # 5️⃣ Commit and push changes safely
+      # 5️⃣ Commit & Push (race-safe)
       - name: Commit and push changes
         run: |
-          # Configure Git
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          # Stage changes
+          # Stage README
           git add README.md
 
-          # Only commit if there are changes
-          git diff-index --quiet HEAD || git commit -m "Update Inaturalist Showcase"
+          # Exit if no changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
-          # Fetch latest remote changes
-          git fetch origin master
+          # Commit
+          git commit -m "Update Inaturalist Showcase"
 
-          # Rebase local workflow commit on top of remote master
-          git rebase origin/master || git rebase --abort
+          # Rebase onto latest remote
+          git pull --rebase origin master
 
-          # Push safely
-          git push origin HEAD:master --force-with-lease
+          # Push normally (no force)
+          git push origin master
