@@ -49,7 +49,6 @@
 ## My latest Inaturalist Observations (Updated Weekly!)
 <!-- INATURALIST_START -->
 <table>
-
     <tr>
         <td><a href="https://www.inaturalist.org/observations/336923687"><img src="https://static.inaturalist.org/photos/612368170/medium.jpg" width="150"/></a></td>
         <td>
@@ -57,7 +56,6 @@
             <sub>01 Feb 2026</sub>
         </td>
     </tr>
-    
     <tr>
         <td><a href="https://www.inaturalist.org/observations/329680902"><img src="https://static.inaturalist.org/photos/597655244/medium.jpg" width="150"/></a></td>
         <td>
@@ -65,7 +63,6 @@
             <sub>06 Dec 2025</sub>
         </td>
     </tr>
-    
     <tr>
         <td><a href="https://www.inaturalist.org/observations/329680320"><img src="https://static.inaturalist.org/photos/597654194/medium.jpg" width="150"/></a></td>
         <td>
@@ -73,7 +70,6 @@
             <sub>06 Dec 2025</sub>
         </td>
     </tr>
-    
 </table>
 <!-- INATURALIST_END -->
 
