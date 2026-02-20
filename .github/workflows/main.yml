@@ -17,11 +17,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo
+      # 1️⃣ Checkout repository at latest master
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          ref: master       # Ensure we are on master, not detached commit
+          fetch-depth: 0    # Full history for rebases/commits
+          persist-credentials: true
 
       # 2️⃣ Setup Python
       - name: Setup Python
@@ -33,30 +35,43 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      # 4️⃣ Run your Python script
+      # 4️⃣ Debug branch state before script
+      - name: Debug branch state
+        run: |
+          echo "=== Current Branch ==="
+          git branch -vv
+          echo "=== Last 5 commits ==="
+          git log --oneline -5
+          echo "=== Remote branches ==="
+          git remote show origin
+
+      # 5️⃣ Run your Python script to update README
       - name: Run Inaturalist update script
         run: python scripts/inaturalist_showcase_widget.py
 
-      # 5️⃣ Commit & Push (race-safe)
+      # 6️⃣ Commit & push changes safely
       - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          # Stage README
           git add README.md
 
-          # Exit if no changes
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          # Commit
           git commit -m "Update Inaturalist Showcase"
 
-          # Rebase onto latest remote
+          # Pull latest remote master and rebase to avoid stale info
+          git fetch origin master
           git pull --rebase origin master
 
-          # Push normally (no force)
+          # Debug branch state before push
+          echo "=== Branch state before push ==="
+          git status
+          git log --oneline -5
+
+          # Push safely
           git push origin master
