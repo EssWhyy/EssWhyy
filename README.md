@@ -46,35 +46,9 @@
 ![](https://img.shields.io/badge/heroku-7e1ac4?style=for-the-badge&logo=heroku&logoColor=white)
 
 
-
-<!-- LETTERBOXD_START -->
-## Schaff's Latest Movie Reviews (Updated Weekly!)
-
-<table>
-<tr>
-<td align="center">
-<a href="https://letterboxd.com/schaffrillas/film/nirvanna-the-band-the-show-the-movie/">
-<img src="https://a.ltrbxd.com/resized/film-poster/1/0/4/1/0/1/2/1041012-nirvanna-the-band-the-show-the-movie-0-600-0-900-crop.jpg?v=4d80f82f8a" width="150"><br>
-<strong>Nirvanna the Band the Show the Movie, 2025 - ★★★★½</strong>
-</a>
-</td>
-<td align="center">
-<a href="https://letterboxd.com/schaffrillas/film/frozen-the-hit-broadway-musical/">
-<img src="https://a.ltrbxd.com/resized/film-poster/1/2/0/8/0/9/0/1208090-frozen-the-hit-broadway-musical-0-600-0-900-crop.jpg?v=6cfe67c2a8" width="150"><br>
-<strong>Frozen: The Hit Broadway Musical, 2025 - ★★</strong>
-</a>
-</td>
-<td align="center">
-<a href="https://letterboxd.com/schaffrillas/film/jane-austens-period-drama/">
-<img src="https://a.ltrbxd.com/resized/film-poster/1/1/5/5/9/6/8/1155968-jane-austens-period-drama-0-600-0-900-crop.jpg?v=74774f0a96" width="150"><br>
-<strong>Jane Austen's Period Drama, 2024 - ★★★★ (contains spoilers)</strong>
-</a>
-</td>
-</tr>
-</table>
-
-<!-- LETTERBOXD_END -->
-
+## My latest Inaturalist Observations (Updated Weekly!)
+<!-- INATURALIST_START -->
+<!-- INATURALIST_END -->
 
 
 ## Connect with me! <img src="https://user-images.githubusercontent.com/74038190/216649417-9acc58df-9186-4132-ad43-819a57babb67.gif" width="50">

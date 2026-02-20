@@ -1,4 +1,4 @@
-name: Update Letterboxd Featured Movie
+name: Update Inaturalist Showcase
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: letterboxd-readme
+  group: inaturalist-readme
   cancel-in-progress: true
 
 permissions:
@@ -32,11 +32,11 @@ jobs:
 
       # 3️⃣ Install dependencies
       - name: Install dependencies
-        run: pip install feedparser beautifulsoup4
+        run: pip install requests
 
       # 4️⃣ Run your Python script to update README
-      - name: Run Letterboxd script
-        run: python scripts/letterboxd_readme_widget.py
+      - name: Run Script to Update Inaturalist Showcase
+        run: python scripts/inaturalist_showcase_widget.py
 
       # 5️⃣ Commit and push changes safely
       - name: Commit and push changes
@@ -49,7 +49,7 @@ jobs:
           git add README.md
 
           # Only commit if there are changes
-          git diff-index --quiet HEAD || git commit -m "Update Letterboxd Featured Movie section"
+          git diff-index --quiet HEAD || git commit -m "Update Inaturalist Showcase"
 
           # Fetch latest remote changes
           git fetch origin master
