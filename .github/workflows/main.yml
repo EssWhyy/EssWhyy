@@ -17,12 +17,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository at latest master
+      # 1️⃣ Checkout repository with full history and push access
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: master       # Ensure we are on master, not detached commit
-          fetch-depth: 0    # Full history for rebases/commits
+          fetch-depth: 0
           persist-credentials: true
 
       # 2️⃣ Setup Python
@@ -35,10 +34,10 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      # 4️⃣ Debug branch state before script
-      - name: Debug branch state
+      # 4️⃣ Debug initial branch state
+      - name: Debug initial branch state
         run: |
-          echo "=== Current Branch ==="
+          echo "=== Current branch ==="
           git branch -vv
           echo "=== Last 5 commits ==="
           git log --oneline -5
@@ -49,29 +48,33 @@ jobs:
       - name: Run Inaturalist update script
         run: python scripts/inaturalist_showcase_widget.py
 
-      # 6️⃣ Commit & push changes safely
+      # 6️⃣ Commit & push changes safely with soft reset
       - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
+          # Ensure local branch is at latest remote
+          git fetch origin master
+          git reset --soft origin/master
+
+          # Stage README changes
           git add README.md
 
+          # Exit if no changes
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
+          # Commit staged changes
           git commit -m "Update Inaturalist Showcase"
-
-          # Pull latest remote master and rebase to avoid stale info
-          git fetch origin master
-          git pull --rebase origin master
 
           # Debug branch state before push
           echo "=== Branch state before push ==="
           git status
           git log --oneline -5
+          git branch -vv
 
-          # Push safely
+          # Push to remote master
           git push origin master
