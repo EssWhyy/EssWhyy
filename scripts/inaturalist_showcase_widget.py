@@ -47,11 +47,10 @@ root = ET.fromstring(response.content)
 ns = {"atom": "http://www.w3.org/2005/Atom"}
 
 entries = root.findall("atom:entry", ns)[:3]
-
-images = []
-captions = []
-
 readme = README_PATH.read_text(encoding="utf-8")
+
+image_cells = []
+caption_cells = []
 
 for entry in entries:
     title = entry.find("atom:title", ns).text
@@ -72,25 +71,27 @@ for entry in entries:
         if match:
             img_url = match.group(1)
 
-    # Image row
-    images.append(
-        f'<a href="{link}"><img src="{img_url}" width="150"/></a>'
+    image_cells.append(
+        f'<td align="center"><a href="{link}"><img src="{img_url}" width="150"/></a></td>'
     )
 
-    # Text row
-    captions.append(
+    caption_cells.append(
+        f'<td align="center">'
         f'<strong><a href="{link}">{title}</a></strong><br/>'
         f'<sub>{published}</sub>'
+        f'</td>'
     )
 
 html_block = (
     f"{START_MARKER}\n"
-    f'<p align="center">\n'
-    f'  {" ".join(images)}\n'
-    f'</p>\n\n'
-    f'<p align="center">\n'
-    f'  {" &nbsp;&nbsp;&nbsp; ".join(captions)}\n'
-    f'</p>\n'
+    f"<table>\n"
+    f"  <tr>\n"
+    f"    {''.join(image_cells)}\n"
+    f"  </tr>\n"
+    f"  <tr>\n"
+    f"    {''.join(caption_cells)}\n"
+    f"  </tr>\n"
+    f"</table>\n"
     f"{END_MARKER}"
 )
 
