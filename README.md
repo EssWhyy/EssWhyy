@@ -48,13 +48,14 @@
 
 ## My latest Inaturalist Observations (Updated Weekly!)
 <!-- INATURALIST_START -->
-<p align="center">
-  <a href="https://www.inaturalist.org/observations/339693707"><img src="https://static.inaturalist.org/photos/618004907/medium.jpg" width="150"/></a> <a href="https://www.inaturalist.org/observations/336923687"><img src="https://static.inaturalist.org/photos/612368170/medium.jpg" width="150"/></a> <a href="https://www.inaturalist.org/observations/329680902"><img src="https://static.inaturalist.org/photos/597655244/medium.jpg" width="150"/></a>
-</p>
-
-<p align="center">
-  <strong><a href="https://www.inaturalist.org/observations/339693707">Day Waterlily</a></strong><br/><sub>22 Feb 2026</sub> &nbsp;&nbsp;&nbsp; <strong><a href="https://www.inaturalist.org/observations/336923687">Ropalidia sumatrae</a></strong><br/><sub>01 Feb 2026</sub> &nbsp;&nbsp;&nbsp; <strong><a href="https://www.inaturalist.org/observations/329680902">Lipsticktree</a></strong><br/><sub>06 Dec 2025</sub>
-</p>
+<table>
+  <tr>
+    <td align="center"><a href="https://www.inaturalist.org/observations/339693707"><img src="https://static.inaturalist.org/photos/618004907/medium.jpg" width="150"/></a></td><td align="center"><a href="https://www.inaturalist.org/observations/336923687"><img src="https://static.inaturalist.org/photos/612368170/medium.jpg" width="150"/></a></td><td align="center"><a href="https://www.inaturalist.org/observations/329680902"><img src="https://static.inaturalist.org/photos/597655244/medium.jpg" width="150"/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong><a href="https://www.inaturalist.org/observations/339693707">Day Waterlily</a></strong><br/><sub>22 Feb 2026</sub></td><td align="center"><strong><a href="https://www.inaturalist.org/observations/336923687">Ropalidia sumatrae</a></strong><br/><sub>01 Feb 2026</sub></td><td align="center"><strong><a href="https://www.inaturalist.org/observations/329680902">Lipsticktree</a></strong><br/><sub>06 Dec 2025</sub></td>
+  </tr>
+</table>
 <!-- INATURALIST_END -->
 
 
