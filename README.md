@@ -55,15 +55,13 @@
             <strong><a href="https://www.inaturalist.org/observations/339693707">Day Waterlily</a></strong><br/>
             <sub>22 Feb 2026</sub>
         </td>
-    </tr>
-    <tr>
+    </tr>    <tr>
         <td><a href="https://www.inaturalist.org/observations/336923687"><img src="https://static.inaturalist.org/photos/612368170/medium.jpg" width="150"/></a></td>
         <td>
             <strong><a href="https://www.inaturalist.org/observations/336923687">Ropalidia sumatrae</a></strong><br/>
             <sub>01 Feb 2026</sub>
         </td>
-    </tr>
-    <tr>
+    </tr>    <tr>
         <td><a href="https://www.inaturalist.org/observations/329680902"><img src="https://static.inaturalist.org/photos/597655244/medium.jpg" width="150"/></a></td>
         <td>
             <strong><a href="https://www.inaturalist.org/observations/329680902">Lipsticktree</a></strong><br/>
