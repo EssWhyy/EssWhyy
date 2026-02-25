@@ -2,7 +2,7 @@ name: Update Inaturalist Showcase
 
 on:
   schedule:
-    - cron: "0 0 * * 1"  # Every Monday
+    - cron: "0 4 * * *"  # Every Day 12pm SGT
   workflow_dispatch:
 
 concurrency:

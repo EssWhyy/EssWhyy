@@ -25,12 +25,11 @@ entries = root.findall("atom:entry", ns)[:3]
 
 rows = []
 
-
 readme = README_PATH.read_text(encoding="utf-8")
 
 for entry in entries:
     title = entry.find("atom:title", ns).text
-    
+
     published = entry.find("atom:published", ns).text
     dt = datetime.fromisoformat(published)
     published = dt.strftime("%d %b %Y")
@@ -42,31 +41,30 @@ for entry in entries:
     img_url = ""
 
     if content_elem is not None and content_elem.text:
-        # Unescape HTML
         content_html = html.unescape(content_elem.text)
-        # Extract img src using regex
         match = re.search(r'src="([^"]+)"', content_html)
         if match:
             img_url = match.group(1)
 
-    row = f"""
-    <tr>
-        <td><a href="{link}"><img src="{img_url}" width="150"/></a></td>
-        <td>
-            <strong><a href="{link}">{title}</a></strong><br/>
-            <sub>{published}</sub>
-        </td>
-    </tr>
-    """
+    row = (
+        f'    <tr>\n'
+        f'        <td><a href="{link}"><img src="{img_url}" width="150"/></a></td>\n'
+        f'        <td>\n'
+        f'            <strong><a href="{link}">{title}</a></strong><br/>\n'
+        f'            <sub>{published}</sub>\n'
+        f'        </td>\n'
+        f'    </tr>'
+    )
+
     rows.append(row)
 
-# Build final HTML table
-html_table = f"""{START_MARKER}
-<table>
-{''.join(rows)}
-</table>
-{END_MARKER}"""
-
+html_table = (
+    f"{START_MARKER}\n"
+    f"<table>\n"
+    f"{''.join(rows)}\n"
+    f"</table>\n"
+    f"{END_MARKER}"
+)
 
 before = readme.split(START_MARKER)[0]
 after = readme.split(END_MARKER)[1]
