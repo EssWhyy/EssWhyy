@@ -22,37 +22,14 @@ root = ET.fromstring(response.content)
 ns = {"atom": "http://www.w3.org/2005/Atom"}
 
 entries = root.findall("atom:entry", ns)[:3]
-
-import requests
-import xml.etree.ElementTree as ET
-import html
-import re
-from pathlib import Path
-from datetime import datetime
-
-FEED_URL = "https://www.inaturalist.org/observations.atom?user_id=esswhyy"
-README_PATH = Path("README.md")
-
-START_MARKER = "<!-- INATURALIST_START -->"
-END_MARKER = "<!-- INATURALIST_END -->"
-
-# Fetch feed
-response = requests.get(FEED_URL)
-response.raise_for_status()
-
-# Parse XML
-root = ET.fromstring(response.content)
-
-# Atom namespace
-ns = {"atom": "http://www.w3.org/2005/Atom"}
-
-entries = root.findall("atom:entry", ns)[:3]
 readme = README_PATH.read_text(encoding="utf-8")
 
+# Create HTML Table in README
 image_cells = []
 caption_cells = []
 
 for entry in entries:
+    # Title, published date, picture link
     title = entry.find("atom:title", ns).text
 
     published = entry.find("atom:published", ns).text

@@ -17,38 +17,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository with full history and push access
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
 
-      # 2️⃣ Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: pip install requests
 
-      # 4️⃣ Debug initial branch state
-      - name: Debug initial branch state
-        run: |
-          echo "=== Current branch ==="
-          git branch -vv
-          echo "=== Last 5 commits ==="
-          git log --oneline -5
-          echo "=== Remote branches ==="
-          git remote show origin
-
-      # 5️⃣ Run your Python script to update README
       - name: Run Inaturalist update script
         run: python scripts/inaturalist_showcase_widget.py
 
-      # 6️⃣ Commit & push changes safely with soft reset
+      # Commit & push changes safely with soft reset
       - name: Commit and push changes
         run: |
           git config user.name "github-actions"
@@ -69,12 +55,6 @@ jobs:
 
           # Commit staged changes
           git commit -m "Update Inaturalist Showcase"
-
-          # Debug branch state before push
-          echo "=== Branch state before push ==="
-          git status
-          git log --oneline -5
-          git branch -vv
 
           # Push to remote master
           git push origin master
