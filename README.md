@@ -1,11 +1,6 @@
 <h1 align="center">Hey, I'm Swen 👋</h1>
-<h3 align="center">FullStack Junior Developer from Singapore, focusing on building Tech For Good Solutions</h3>
-
-- 🤝 Looking to collaborate on **Open-source Sustainability & Educational Projects**
-
-- 💬 Ask me about **Full Stack Software Development, Web Applications & Data Visualisation**
-
-- 👀 I’m actively looking out for **Full-time Software Engineering Roles, open to remote work & relocation**
+<h3 align="center">FullStack Junior Developer from Singapore, passionate on building Tech For Good & Sustainability Solutions</h3>
+<h4 align="center">Open to collaborating and networking! :)</h4>
 
 ## My Stack:
 
@@ -60,11 +55,25 @@
 
 
 ## Connect with me! <img src="https://user-images.githubusercontent.com/74038190/216649417-9acc58df-9186-4132-ad43-819a57babb67.gif" width="50">
-<p align="left">
-<a href="https://linkedin.com/in/sventang" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sventang" height="60" width="60" /></a>
-<a href="https://www.inaturalist.org/people/esswhyy" target="blank"><img align="center" src="https://static.inaturalist.org/sites/1-logo_square.png?1573071870" alt="esswhyy" height="60" width="60" /></a>
-<a href="mailto:sventang1@gmail.com" target="blank"><img align="center" src="https://freesvg.org/img/Mail-Icon-White-on-Grey.png" alt="esswhyy" height="60" width="60" /></a>
-</p>
+<table border="0">
+  <tr>
+    <td style="padding: 0 5px;">
+      <a href="https://linkedin.com/in/sventang" target="blank">
+        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" width="60" height="60" />
+      </a>
+    </td>
+    <td style="padding: 0 5px;">
+      <a href="https://www.inaturalist.org/people/esswhyy" target="blank">
+        <img src="https://static.inaturalist.org/sites/1-logo_square.png?1573071870" alt="inaturalist" width="60" height="60" />
+      </a>
+    </td>
+    <td style="padding: 0 5px;">
+      <a href="mailto:sventang1@gmail.com" target="blank">
+        <img src="https://freesvg.org/img/Mail-Icon-White-on-Grey.png" alt="email" width="60" height="60" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 
 
