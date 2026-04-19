@@ -1,5 +1,5 @@
 <h1 align="center">Hey, I'm Swen 👋</h1>
-<h3 align="center">FullStack Junior Developer from Singapore, passionate on building Tech For Good & Sustainability Solutions</h3>
+<h3 align="center">FullStack Junior SWE from Singapore, passionate in building Tech For Good & Sustainability Solutions</h3>
 <h4 align="center">Open to collaborating and networking! :)</h4>
 
 ## My Stack:
