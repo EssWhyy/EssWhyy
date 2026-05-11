@@ -45,10 +45,10 @@
 <!-- INATURALIST_START -->
 <table>
   <tr>
-    <td align="center"><a href="https://www.inaturalist.org/observations/357760794"><img src="https://static.inaturalist.org/photos/652561056/medium.jpg" width="150"/></a></td><td align="center"><a href="https://www.inaturalist.org/observations/357759616"><img src="https://static.inaturalist.org/photos/652558810/medium.jpg" width="150"/></a></td><td align="center"><a href="https://www.inaturalist.org/observations/357759454"><img src="https://static.inaturalist.org/photos/652558652/medium.jpg" width="150"/></a></td>
+    <td align="center"><a href="https://www.inaturalist.org/observations/358769481"><img src="https://static.inaturalist.org/photos/654520734/medium.jpg" width="150"/></a></td><td align="center"><a href="https://www.inaturalist.org/observations/358477071"><img src="https://static.inaturalist.org/photos/653954902/medium.jpg" width="150"/></a></td><td align="center"><a href="https://www.inaturalist.org/observations/357760794"><img src="https://static.inaturalist.org/photos/652561056/medium.jpg" width="150"/></a></td>
   </tr>
   <tr>
-    <td align="center"><strong><a href="https://www.inaturalist.org/observations/357760794">Australasian Swamphen</a></strong><br/><sub>03 May 2026</sub></td><td align="center"><strong><a href="https://www.inaturalist.org/observations/357759616">Olive</a></strong><br/><sub>03 May 2026</sub></td><td align="center"><strong><a href="https://www.inaturalist.org/observations/357759454">None</a></strong><br/><sub>03 May 2026</sub></td>
+    <td align="center"><strong><a href="https://www.inaturalist.org/observations/358769481">blue pinkgill</a></strong><br/><sub>06 May 2026</sub></td><td align="center"><strong><a href="https://www.inaturalist.org/observations/358477071">Eurasian Coot</a></strong><br/><sub>05 May 2026</sub></td><td align="center"><strong><a href="https://www.inaturalist.org/observations/357760794">Australasian Swamphen</a></strong><br/><sub>03 May 2026</sub></td>
   </tr>
 </table>
 <!-- INATURALIST_END -->
